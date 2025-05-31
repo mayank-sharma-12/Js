@@ -90,3 +90,47 @@ if((colMarks > 33) && (colMarks >= 80) || !false){
 else{
     console.log("Fail");
 }
+
+//Find the Good string starts will letter 'a' and have string length greater than 3.
+console.log("--------------Practice Question----------------");
+
+let str = "apple";
+
+if((str[0] === 'a') && (str.length > 3)){
+    console.log("Good string.");
+}else{
+    console.log("Bad string.")
+}
+
+let num = 12;
+
+if((num%3 === 0) && ((num + 1 === 15) || (num - 1 == 11))){
+    console.log("Safe");
+}else{
+    console.log("Unsafe");
+}
+
+//Truthy and Falsy
+if(undefined){
+    console.log("This is the true statement");
+}else{
+    console.log("This is the False statement");
+}
+
+//Switch Statement
+
+let colors = "yellow";
+
+switch(colors){
+    case "red":
+        console.log("Stop");
+        break;
+    case "yellow":
+        console.log("Slow down");
+        break;
+    case "green":
+        console.log("Go");
+        break;
+    default :
+    console.log("Light is broken");
+}
