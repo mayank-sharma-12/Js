@@ -79,3 +79,14 @@ if(schoolMarks >= 33){
 }else{
     console.log("Better luck next time.");
 }
+
+//Logical Operator (&&, ||, !)
+console.log("--Logical Operator (&&, ||, !)--");
+
+let colMarks = 80;
+if((colMarks > 33) && (colMarks >= 80) || !false){
+    console.log("Pass, Grade A");
+}
+else{
+    console.log("Fail");
+}
