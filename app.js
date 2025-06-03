@@ -134,3 +134,41 @@ switch(colors){
     default :
     console.log("Light is broken");
 }
+
+// Num variable divisible by 10 print good and bad
+
+let nums = 20;
+
+if(nums % 10 === 0){
+    console.log("Good");
+}else{
+    console.log("Bad");
+}
+
+// Take user input
+// let uName = prompt("Enter your name");
+// let uAge = prompt("Enter your age");
+
+// alert(`${uName} is ${uAge} years old.`);
+
+// Switch Case 
+let monthNum = 5;
+
+switch (monthNum){
+    case 1 :
+        console.log("January, February, March");
+        break;
+    case 2 :
+        console.log("April, May, June");
+        break;
+    case 3 :
+        console.log ("July, August, September");
+        break;
+    case 4 :
+        console.log("October, November, December");
+        break;
+
+        default :
+        console.log("Enter Valid Month Number between 1 to 4");
+        break;
+}
