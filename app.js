@@ -172,3 +172,18 @@ switch (monthNum){
         console.log("Enter Valid Month Number between 1 to 4");
         break;
 }
+
+// Find largest num
+
+let a = 7;
+let b = 20;
+let c = 2;
+
+if(a > b && a > c){
+    console.log("A is largest num");
+}else if(b > c && b > a){
+    console.log("B is largest num");
+}
+else{
+    console.log("C is largest num");
+}
