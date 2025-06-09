@@ -32,3 +32,31 @@ console.log(allconcate);
 let allReverse = fruits.reverse(); //['Orange', 'Apple', 'Mango']
 console.log(allReverse);
 
+// Array Slice Method
+
+let fruits1 = ["Orange", "Grapes", "Apple", "Mango"];
+console.log(fruits1.slice(2)); //['Apple', 'Mango']
+console.log(fruits1.slice(1,3)); //['Grapes', 'Apple']
+console.log(fruits1.slice(-2)); //['Apple', 'Mango']
+
+// Array Splice Method
+let subjects = ["Math", "English", "Science", "Accounts", "SST", "Physics", "Chemistry"];
+console.log(subjects.splice(3)); //['Accounts', 'SST', 'Physics', 'Chemistry']
+console.log(subjects); //['Math', 'English', 'Science']
+
+// Practice Question
+let months = ['january', 'july', 'march', 'august'];
+console.log(months.splice(0,2, 'july', 'june'));
+
+let skills = ['c', 'c++', 'html', 'javascript', 'python', 'java', 'c#', 'sql'];
+let revSkills = skills.reverse();
+console.log(revSkills);
+console.log(revSkills.indexOf('javascript'));
+
+// Array Sorting
+
+let alphabets = ['a', 'd', 'e', 'b', 'c'];
+console.log(alphabets.sort()); //['a', 'b', 'c', 'd', 'e'] working fine with string
+
+let num = [20, 5, 10, 75];
+console.log(num.sort()); //[10, 20, 5, 75] not working fine with numbers
