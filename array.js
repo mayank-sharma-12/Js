@@ -60,3 +60,11 @@ console.log(alphabets.sort()); //['a', 'b', 'c', 'd', 'e'] working fine with str
 
 let num = [20, 5, 10, 75];
 console.log(num.sort()); //[10, 20, 5, 75] not working fine with numbers
+
+// Nested Array
+
+let arr = [[2, 4], [3, 5], [7, 9], [6, 8]];
+console.log(arr[0][0]);// 2
+console.log(arr[0][1]);// 4
+console.log(arr[0][0]);// 2
+console.log(arr[1][1]);// 5
