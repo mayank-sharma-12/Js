@@ -83,3 +83,46 @@ function isAdults(age){
 
 console.log(isAdults(20)); //Get output by using this statement.
 
+// Sum of 1 to n numbers
+function getSum(n){
+    let sum = 0;
+    for(i = 1; i <= n; i++){
+        sum += i;
+    }
+    return sum;
+}
+
+console.log(getSum(10));// The output is 55
+
+//Concating a string using functions
+
+let str = ["Hello", " My", " Name", " is", " Mayank"];
+
+function concate(str){
+    let result = "";
+    for(let i = 0; i < str.length; i++){
+        result += str[i];
+    }
+    return result;
+}
+
+console.log(concate(str));
+
+// Function scope (Global Scope, Function scope)
+
+// let sum = 65; // Global Scope Variable
+
+function getAdd(a, b){
+   let sum = a + b; // Function scope variable
+   console.log(sum);
+}
+console.log(getAdd(1, 5));
+// console.log(sum);
+
+//Block scope
+
+{
+    let a = 40; //This is a block scope variable declaration
+    console.log("Value of a is ", a);  //we can access the value of block scope variable inside the scope.
+}
+// console.log(a); It is not accessible out side the curly braces
