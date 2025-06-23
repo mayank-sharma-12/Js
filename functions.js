@@ -126,3 +126,9 @@ console.log(getAdd(1, 5));
     console.log("Value of a is ", a);  //we can access the value of block scope variable inside the scope.
 }
 // console.log(a); It is not accessible out side the curly braces
+
+let sums = function(a, b){
+    return console.log(`Sum of two variables are =`, a + b);
+} //Function Express Syntax
+sums(1, 12);
+
