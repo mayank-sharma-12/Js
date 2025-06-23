@@ -132,3 +132,15 @@ let sums = function(a, b){
 } //Function Express Syntax
 sums(1, 12);
 
+
+//Higher Order Function used for API integration
+function highOrderFunction(func, count){
+    for(let i = 1; i <= count; i++){
+        func();
+    }
+}
+    let greets = function(){
+        console.log("Hello");
+    }
+
+highOrderFunction(greets, 200);
