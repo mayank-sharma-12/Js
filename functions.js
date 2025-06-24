@@ -162,3 +162,23 @@ function oddEvenTest(request){
 }
 
 let request = "odd"; //even
+
+//Function Method
+
+const calculator = {
+    add(a, b){
+        return a + b
+    },
+
+    sub(a, b){
+        return a - b
+    },
+
+    mul(a, b){
+        return a * b
+    }
+}
+
+console.log(calculator.add(8, 7));
+console.log(calculator.sub(84, 51));
+calculator.mul(7, 6);
